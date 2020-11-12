@@ -1,0 +1,93 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+.title {
+  position: absolute;
+	background: #ADD8E6;
+	font-weight: bold;
+	border: 1px solid black	;
+  top:0px;
+  right:0px;
+  padding:5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#t1 {
+	background: #F2B5B5;
+}
+#t2 {
+	background: #B5C1F2;
+}
+#t3 {
+	background: #D89AE5;
+}
+
+.inner {
+  position: relative;
+  background: grey;
+  border: 1px solid black ;
+  padding: 10px;
+}
+
+p {
+  position: relative;
+  font-family: Helvetica;
+  text-align: justify;
+  margin-top: 40px;
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+  	padding:10px;
+    position: relative;	
+    float: left;
+
+  }
+ 
+  .col-lg-4 {
+    width: 33.3%;
+  }
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 992px) {
+		.col-md-6, .col-md-12 {
+    padding:10px;
+  	position: relative;	
+    float: left;
+
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+   .col-sm-12 {
+    padding:10px;
+  	position: relative;	
+    float: left;
+
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+
