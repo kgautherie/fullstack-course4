@@ -42,7 +42,6 @@ h1 {
 }
 
 p {
-  position: relative;
   font-family: Helvetica;
   text-align: justify;
   margin-top: 40px;
@@ -51,7 +50,7 @@ p {
 @media (min-width: 992px) {
   .col-lg-4 {
   	padding:10px;
-    position: relative;	
+/*    position: relative;	*/
     float: left;
 
   }
@@ -66,7 +65,7 @@ p {
 @media (min-width: 768px) and (max-width: 992px) {
 		.col-md-6, .col-md-12 {
     padding:10px;
-  	position: relative;	
+/*  	position: relative;*/	
     float: left;
 
   }
@@ -81,7 +80,7 @@ p {
 @media (max-width: 767px) {
    .col-sm-12 {
     padding:10px;
-  	position: relative;	
+/*  	position: relative;	*/
     float: left;
 
   }
